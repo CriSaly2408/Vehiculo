@@ -1,25 +1,25 @@
- Creación del proyecto y archivo Java:
+1. Preparar el archivo:
+Paso 1: Asegurarse de que el archivo Java (por ejemplo, Vehiculo.java) esté guardado en un directorio específico.
 
-Paso 1: Crear un nuevo proyecto en un entorno de desarrollo integrado (IDE) como Eclipse, IntelliJ IDEA, o simplemente utilizando un editor de texto como Visual Studio Code.
+2. Abrir el símbolo del sistema:
+Paso 2: Abrir el símbolo del sistema (cmd).
 
-Paso 2: Dentro del proyecto, crear un nuevo archivo Java con el nombre Vehiculo.java.
-2. Importar librerías necesarias:
+3. Navegar al directorio del archivo:
+Paso 3: Utilizar el comando cd para cambiar al directorio donde guardaste el archivo Java. Por ejemplo:
 
-Paso 3: Incluir la declaración import java.util.Scanner; al inicio del archivo. Esto permite utilizar la clase Scanner, que es necesaria para leer la entrada del usuario desde la consola.
-3. Definir la clase principal:
+cd C:\usuario\documentos
+Reemplazar C:\usuario\documentos con la ruta real del directorio donde se encuentra el archivo Vehiculo.java, en mi caso C:\Users\Cris\OneDrive\Escritorio.
 
-Paso 4: Definir la clase Vehiculo utilizando public class Vehiculo. Esta será la clase principal del programa.
-4. Definir el método main:
+4. Compilar el archivo Java:
+Paso 4: Una vez estando en el directorio correcto, compilar el archivo Java usando el comando javac. Ejecutar:
 
-Paso 5: Dentro de la clase Vehiculo, crear el método public static void main(String[] args). Este es el punto de entrada del programa, donde se ejecutará el código.
-5. Inicializar el objeto Scanner:
+javac Vehiculo.java
 
-Paso 6: Dentro del método main, inicializar un objeto Scanner utilizando Scanner scanner = new Scanner(System.in);. Esto permitirá capturar la entrada del usuario.
-6. Solicitar y capturar datos del usuario:
+Paso 5: Si el archivo se compila sin errores, se generará un archivo Vehiculo.class en el mismo directorio. Este archivo es el bytecode de Java que se ejecutará en la máquina virtual Java.
 
-Paso 7: Utilizar System.out.print para mostrar mensajes en la consola solicitando al usuario que ingrese datos como la marca, modelo, cilindrada, tipo de combustible, y capacidad en pasajeros del vehículo.
+5. Ejecutar el programa:
+Paso 6: Ejecuta el programa usando el comando java:
 
-Paso 8: Capturar los datos ingresados por el usuario usando scanner.nextLine() para los datos de tipo String y scanner.nextInt() para el dato de tipo int (capacidad de pasajeros).
-7. Mostrar los datos ingresados:
+java Vehiculo
 
-Paso 9: Una vez capturados los datos, utilizar System.out.println para mostrar la información ingresada por el usuario en la consola, repitiendo cada uno de los valores capturados.
+Paso 7: El programa se ejecutará, y el símbolo del sistema te pedirá que ingreses los datos solicitados. Introduce la marca, el modelo, la cilindrada, el tipo de combustible y la capacidad en pasajeros como se indica en el código.
